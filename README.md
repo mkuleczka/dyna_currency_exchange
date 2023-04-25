@@ -4,6 +4,7 @@ To query operations you can use browser with <http_address> or run command curl 
 Please see requirements.txt for environment needs (or run pip install -r requirements.txt)
 
 =================================
+
 Flask based API:
 
 To start the server, run this command:
@@ -46,6 +47,7 @@ When no data will be found (selected weekend or holiday or incorrect currency co
 404 Not Found
 
 =================================
+  
 For swagger based API:
 
 To start the server, run this command:
@@ -91,5 +93,6 @@ When no data will be found (selected weekend or holiday or incorrect currency co
 404 Not Found
 
 =========================
+  
 There are also two simple tests:
 python3.10 test_exchanges.py
